@@ -1,0 +1,48 @@
+
+:root{
+    --bg-orange:#DA722C;
+    --bg-blue:#057ADA;
+    --bg-while:#E8F7FB;
+    --bg-teal:#023047;
+    --bg-dark:#070917;
+    --bg-blueviolet:#6F7DFB;
+}
+@font-face {
+    font-family: raleway;
+    src: url('../../fonts/Raleway/Raleway-Bold.eot');
+    src: url('../../fonts/Raleway/Raleway-Bold.ttf');
+    src: url('../../fonts/Raleway/Raleway-Bold.woff');
+    src: url('../../fonts/Raleway/Raleway-Bold.woff2');
+}
+@font-face {
+    font-family: poppinsbold;
+    src: url('../../fonts/poppins-bold/Poppins-Bold.eot');
+    src: url('../../fonts/poppins-bold/Poppins-Bold.ttf');
+    src: url('../../fonts/poppins-bold/Poppins-Bold.woff');
+    src: url('../../fonts/poppins-bold/Poppins-Bold.woff2');
+}
+@font-face {
+    font-family: poppinsmed;
+    src: url('../../fonts/poppins-medium/Poppins-Medium.eot');
+    src: url('../../fonts/poppins-medium/Poppins-Medium.ttf');
+    src: url('../../fonts/poppins-medium/Poppins-Medium.woff');
+    src: url('../../fonts/poppins-medium/Poppins-Medium.woff2');
+}
+
+@font-face {
+    font-family: poppinsmed;
+    src: url('../../fonts/poppins-thin/Poppins-Thin.eot');
+    src: url('../../fonts/poppins-thin/Poppins-Thin.ttf');
+    src: url('../../fonts/poppins-thin/Poppins-Thin.woff');
+    src: url('../../fonts/poppins-thin/Poppins-Thin.woff2');
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "problem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss/main.scss -o css/ --output-style compressed -r",
+    "xxlscss": "node-sass -w scss/xxl/xxl.scss -o css/xxl/  --output-style compressed -r",
+    "xlscss": "node-sass -w scss/xl/xl.scss -o css/xl/  --output-style compressed -r",
+    "lgscss": "node-sass -w scss/lg/lg.scss -o css/lg/  --output-style compressed -r",
+    "medscss": "node-sass -w scss/med/med.scss -o css/med/  --output-style compressed -r",
+    "smscss": "node-sass -w scss/sm/sm.scss -o css/sm/  --output-style compressed -r",
+    "lsmscss": "node-sass -w scss/lsm/lsm.scss -o css/lsm/  --output-style compressed -r",
+    "setting": "node-sass -w scss/setting/setting.scss -o css/setting/   --output-style compressed -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
